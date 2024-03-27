@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SauceLab Test Automation Suite" >
+<listeners>
+    <listener class-name="com.saucelab.qa.ExtentReportListener.ExtentListener"></listener>
+</listeners>
+    <test name="Sauce Lab Test Cases" >
+        <classes>
+            <class name="com.saucelab.qa.testcases.LoginPageTest" />
+            <class name="com.saucelab.qa.testcases.HomePageTest" />
+            <class name="com.saucelab.qa.testcases.CartPageTest" />
+            <class name="com.saucelab.qa.testcases.CheckoutPageTest" />
+        </classes>
+    </test>
+</suite>
